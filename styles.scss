@@ -22,15 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -45,6 +37,7 @@ body {
 
 .card:nth-child(1) {
     background-color: var(--brightOrange);
+    transition: all 0.3s ease-in-out;
     .header h2 {
         color: var(--veryLightGrayBHB);
         font-family: 'Quicksand', sans-serif;
@@ -75,6 +68,10 @@ body {
             background: var(--brightOrange);
             border: 3px solid white;
         }
+    }
+
+    &:hover {
+        transform: scale(1.1);
     }
 }
 
