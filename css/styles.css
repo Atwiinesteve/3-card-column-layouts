@@ -28,22 +28,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-family: 'Karla', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Outfit', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Rubik', sans-serif;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   height: 500px;
 }
 
@@ -54,80 +52,104 @@ body {
 .card:nth-child(1) {
   background-color: var(--brightOrange);
 }
-
 .card:nth-child(1) .header h2 {
   color: var(--veryLightGrayBHB);
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   font-size: 2.5rem;
   margin: 2rem 0;
   text-transform: uppercase;
 }
-
 .card:nth-child(1) .card--content p {
   color: var(--transparentWhiteParagraphs);
   line-height: 1.9;
   margin-bottom: 7rem;
 }
-
 .card:nth-child(1) a.learn--more {
+  border: 3px solid transparent;
   text-decoration: none;
   color: var(--brightOrange);
   padding: 1rem 1.8rem;
-  border-radius: 50px;
+  border-radius: 1px;
   background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.card:nth-child(1) a.learn--more:hover {
+  color: white;
+  cursor: pointer;
+  background: var(--brightOrange);
+  border: 3px solid white;
 }
 
 .card:nth-child(2) {
   background-color: var(--darkCyan);
 }
-
 .card:nth-child(2) .header h2 {
   color: var(--veryLightGrayBHB);
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   font-size: 2.5rem;
   margin: 2rem 0;
   text-transform: uppercase;
 }
-
 .card:nth-child(2) .card--content p {
   color: var(--transparentWhiteParagraphs);
   line-height: 1.9;
   margin-bottom: 7rem;
 }
-
 .card:nth-child(2) a.learn--more {
+  border: 3px solid transparent;
   text-decoration: none;
   color: var(--darkCyan);
   padding: 1rem 1.8rem;
-  border-radius: 50px;
+  border-radius: 1px;
   background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.card:nth-child(2) a.learn--more:hover {
+  color: white;
+  cursor: pointer;
+  background: var(--darkCyan);
+  border: 3px solid white;
 }
 
 .card:nth-child(3) {
   background-color: var(--veryDarkCyan);
 }
-
 .card:nth-child(3) .header h2 {
   text-transform: uppercase;
   color: var(--veryLightGrayBHB);
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   font-size: 2.5rem;
   margin: 2rem 0;
 }
-
 .card:nth-child(3) .card--content p {
   color: var(--transparentWhiteParagraphs);
   margin-bottom: 7rem;
   line-height: 1.9;
 }
-
 .card:nth-child(3) a.learn--more {
+  border: 3px solid transparent;
   text-decoration: none;
   color: var(--veryDarkCyan);
   padding: 1rem 1.8rem;
-  border-radius: 50px;
+  border-radius: 1px;
   background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.card:nth-child(3) a.learn--more:hover {
+  color: white;
+  cursor: pointer;
+  background: var(--veryDarkCyan);
+  border: 3px solid white;
 }
